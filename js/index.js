@@ -32,11 +32,11 @@ for (let i = 0; i < driverLength; i++) {
 console.log(character)
 
 let characterInvers = "";
-for (let i =driverLength; i >= 0; i--) {
+for (let i =driverLength-1; i >= 0; i--) {
   
     characterInvers += hacker1[i];
 }
-console.log(character)
+console.log(characterInvers)
 
 let resultOrder=hacker1.localeCompare(hacker2);
 if(resultOrder===-1){
@@ -46,3 +46,4 @@ console.log("The driver's name goes first.")
 }else{
     console.log("What?! You both have the same name?")
 }
+//-------------------bonus time----------------------
